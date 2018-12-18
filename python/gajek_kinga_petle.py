@@ -5,29 +5,27 @@
 #  
 def cw1():
     suma = 0
-    liczba = int(input("Podaj liczbę: "))
-    while suma < 75:
-        suma += liczba
-        print(suma)
+    while suma <= 75:
         liczba = int(input("Podaj liczbę: "))
+        suma += liczba
+    print(suma)
         
 def cw2():
     suma = 0
     n = int(input("Podaj dolny zakres: "))
-    
     m = int(input("Podaj górny zakres: "))
-    
-    for i in range(n, m):
-        
-        print("{}".format(i), end = " ")
-    
+    for i in range(n, m + 1):
+        print(i, end = " ")
 
-
+def cw3():
+    n = int(input("Liczba: "))
+    for i in range(n + 1):
+        print(i*i)
 
 
 def main(args):
     
-    cw2()
+    cw3()
     return 0
     
     
