@@ -10,11 +10,11 @@ def main(args):
     i = 2
     while i * i <=n:
         if n % i == 0 :
-            print("złożona")
+            print("Liczba złożona")
             return 0
         i = i + 1
                 
-    print("pierwsza")
+    print("Liczba pierwsza")
     return 0
 
 if __name__ == '__main__':
