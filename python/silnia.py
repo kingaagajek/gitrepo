@@ -15,7 +15,10 @@ def silnia_it(n):
 
 
 def main(args):
-    assert silnia_it(0
+    assert silnia_it(0) == 1
+    assert silnia_it(1) == 1
+    assert silnia_it(2) == 2
+    assert silnia_it(3) == 6
     
     n = int(input("Podaj liczbę naturalną: "))
     print("{}! = {}".format(n, silnia_it(n)))
