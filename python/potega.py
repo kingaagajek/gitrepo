@@ -21,7 +21,7 @@ def main(args):
     assert potega_it(2, 1) == 2
     assert potega_it(0, 10) == 0
     assert potega_it(1, 10) == 1
-    assert potega_it(3, 3) == 25
+    assert potega_it(3, 3) == 27
     
     a = input("Podaj liczbę podstawę: ")
     n = input("Podaj liczbę wykładnik: ")
