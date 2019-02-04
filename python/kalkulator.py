@@ -24,34 +24,62 @@ def pobierz_liczbe(komunikat='Pobierz liczbę: '):
         return int(a)
     return False
 
+def suma(a, b):
+    return a + b
+    
+def odejmij(a, b):
+    return a - b
+    
+def mnoz(a, b):
+#    if b or a != 0:
+        return a * b
+#       else:
+#       return 1
+
 def dziel(a, b):
     if b != 0:
         return a / b
     else:
         print('Bląd dzielenia przez zero!')
     return 0
-
-
+        
 def main(args):
     pokaz_liste()
     while True:
-        d = input("Wybierz działanie")
+        d = input("Wybierz działanie ")
         if d == '+':
+            a = pobierz_liczbe('Podaj składnik: ')
+            b = pobierz_liczbe('Podaj skłanik: ')
+            if a and b:
+                wynik = suma(a, b)
+                if wynik:
+                    print('{} + {} = {}'.format(a, b, wynik))
             pass
-        elif d == '-'
+        elif d == '-':
+            a = pobierz_liczbe('Podaj odjemną: ')
+            b = pobierz_liczbe('Podaj odjemnik: ')
+            if a and b:
+                wynik = odejmij(a, b)
+                if wynik:
+                    print('{} - {} = {}'.format(a, b, wynik))
             pass
-        elif d == '*'
+        elif d == '*':
+            a = pobierz_liczbe('Podaj czynnik: ')
+            b = pobierz_liczbe('Podaj czynnik: ')
+            if a and b:
+                wynik = mnoz(a, b)
+                if wynik:
+                    print('{} * {} = {}'.format(a, b, wynik))
             pass
-        elif d == '/'
+        elif d == '/':
             a = pobierz_liczbe('Podaj dzielną: ')
-            a = pobierz_liczbe('Podaj dzielnik: ')
+            b = pobierz_liczbe('Podaj dzielnik: ')
             if a and b:
                 wynik = dziel(a, b)
                 if wynik:
                     print('{} / {} = {}'.format(a, b, wynik))
-                
             pass
-        elif d == '//'
+        elif d == '//':
             pass
         elif d == 'l':
             pokaz_liste()
