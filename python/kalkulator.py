@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #  kalkulator.py
+from math import sin, cos, pi
 
 def pokaz_liste():
     print('''Lista działań:
@@ -42,6 +43,18 @@ def dziel(a, b):
     else:
         print('Bląd dzielenia przez zero!')
     return 0
+    
+def sinus(stopien):
+    if -1 < stopien < 361:
+        return sin(stopien * pi / 180)
+    print("Błędny zakres stopni!")
+    return False
+    
+def cosinus(stopien):
+    if -1 < stopien < 361:
+        return cos(stopien * pi / 180)
+    print("Błędny zakres stopni!")
+    return False
         
 def main(args):
     pokaz_liste()
@@ -81,6 +94,14 @@ def main(args):
             pass
         elif d == '//':
             pass
+        elif d == 'sin':
+            a = pobierz_liczbe('Podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('sin({}) = {}'.format(a, sinus(a)))
+        elif d == 'cos':
+            a = pobierz_liczbe('Podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('cos({}) = {}'.format(a, cosinus(a)))
         elif d == 'l':
             pokaz_liste()
         elif d == 'koniec':
