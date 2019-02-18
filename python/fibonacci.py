@@ -29,7 +29,6 @@ def main(args):
 #    assert fib_it(1) == 1
 #    assert fib_it(7) == 13
     assert fib_it(19) == 4181
-    s
     n = input('Który wyraz ciągu? ')
     while not czy_naturalna(n):
         print('Błędne dane!')
