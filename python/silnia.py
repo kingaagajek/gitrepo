@@ -38,7 +38,7 @@ def main(args):
     
     n = int(input("Podaj liczbę naturalną: "))
     print("{}! = {}".format(n, silnia_rek(n)))
-    print(wynik)
+    #print(wynik)
     return 0
 
 if __name__ == '__main__':

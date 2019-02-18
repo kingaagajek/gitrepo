@@ -20,7 +20,7 @@ def potega_rek(a, n):
     # a^n = a^(n-1) * a
     if n == 0:
         return 1
-    return potega_rek (a, n-1) * a
+    return potega_rek (a, n - 1) * a
         
     
 def main(args):
