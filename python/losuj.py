@@ -43,6 +43,8 @@ def main(args):
     
     wynik = set(liczby) & typy
     print("Odgadnięto: {}".format(len(wynik)))
+    print(liczby)
+    print(typy)
     
     return 0
     
