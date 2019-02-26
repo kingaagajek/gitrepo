@@ -39,7 +39,7 @@ def pobierz_dane2():
         if ileSa > ileSp:
             print("Samogłoski > spoółgłoski")
         elif ileSa < ileSp:
-            print("Samogłoski >k spoółgłoski")
+            print("Samogłoski > spoółgłoski")
         else:
             print("Samogłoski = spoółgłoski")
             
