@@ -12,17 +12,17 @@ def pobierz_klucz():
         return 3
         
 def szyfruj_1(tekst, klucz):
-    inne = set(' ')
     szyfrogram = ''
     for znak in tekst:
-        if znak not in inne: 
-            ascii = ord(znak)
-            if ascii + klucz > 122:
-                znak = chr(ascii + klucz - 26)
-            else:
-                znak = chr(ascii + klucz)
-            szyfrogram += znak
-        
+        ascii = ord(znak)
+        if ascii + klucz > 122:
+            znak = chr(ascii + klucz - 26)
+        elif ascii == 32:
+            znak = chr(ascii)
+        else:
+            znak = chr(ascii + klucz)
+        szyfrogram += znak
+
     print('Szyfrogram:\n', szyfrogram)
 
 def main(args):
