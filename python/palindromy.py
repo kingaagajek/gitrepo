@@ -21,15 +21,22 @@ def czytaj_dane(plik):
         for linia in f:
             teksty.append(linia.strip())
         return teksty
+        
+
 def main(args):
     # tekst = input('Podaj tekst: ')
     teksty = czytaj_dane('dane01.txt')
-    print(teksty)
     ile = 0
+    for i in range(len(teksty)):
+        if czy_palindrom(teksty[i]):
+            ile += 1
+        else:
+            continue
     # ~if czy_palindrom(tekst):
         # ~print('To palindrom! ')
     # ~else:
         # ~print('To nie jest palindrom! ')
+    print (ile)
     return 0
 #pet;la for dla kazego elementu z listy teksty wywolac ffunkcje czy palindroam jesli zwroci prawde tp wyswietlic ile
 if __name__ == '__main__':
