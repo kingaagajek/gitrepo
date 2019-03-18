@@ -87,7 +87,21 @@ def wybierzJezyk(konf_dane):
         for i, j in enumerate(konf_dane['jezyki']):
             print('{}. {}'.format(i + 1, j))
         print('{}, nowy język'.format(i + 2))
-            
+        jezyk = int(input('Podaj numer: '))
+        if jezyk == (len(konf_dane['jezyki']) +1):
+            jezyk = input('Podaj język (angielski itp.): ')
+        else:
+            jezyk = konf_dane['jezyki'][jezyk - 1]
+    else:
+        jezyk = input('Podaj język (angielski itp.): ')
+        
+    return jezyk
+        
+def zapiszDane(plik, dane, roz='.dat'):
+    with open(plik + roz, "w") as f:
+        json.dump(dane, f)
+        
+        
 def main(args):
 #    dane ={'go': ['iść', 'jeździć'], 'see': ['widzieć', 'oglądać']}
  
@@ -96,9 +110,8 @@ def main(args):
     if 'jezyki' not in konf_dane:
         konf_dane['jezyki'] = []
     jezyk = wybierzJezyk(konf_dane)
-    print(konf_dane)
-    return
-    
+    dane = wczytaj_dane(jezyk)
+
     
     operacja = 0
     while operacja != 5:
@@ -108,9 +121,16 @@ def main(args):
             listaSlow(dane)
         elif operacja == 2:
             pobierzDane(dane)
+            zapiszDane(jezyk, dane)
         elif operacja == 3:
             tlumacz(dane)
+        elif operacja == 4:
+            jezyk = wybierzJezyk(konf_dane)
+            dane = wczytaj_dane(jezyk)
         elif operacja == 5:
+            if jezyk not in konf_dane['jezyki']:
+                konf_dane['jezyki'].append(jezyk)
+            zapiszDane(konf_plik, konf_dane)
             print('\nDo zobaczenia!')
         else:
             print('Błędny wybór')
