@@ -32,6 +32,10 @@ def main(args):
             ile += 1
         else:
             continue
+<<<<<<< HEAD
+=======
+    print (ile)
+>>>>>>> b2c5eaa61a63773b3c16d6628ac8be6eaf13da65
     # ~if czy_palindrom(tekst):
         # ~print('To palindrom! ')
     # ~else:
