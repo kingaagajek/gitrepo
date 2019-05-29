@@ -1,0 +1,25 @@
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[29-May-2019 09:10:47 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/template_functions.php on line 1043
+[29-May-2019 09:32:00 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:32:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:32:09 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:33:05 Europe/Berlin] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; I18nNavigationItem has a deprecated constructor in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 349
+[29-May-2019 09:33:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
