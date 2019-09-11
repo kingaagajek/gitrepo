@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     float liczba2;
     cout << "Podaj liczbę całkowita: ";
     cin >> liczba1;
-    cout << "Podałeś: " << liczba1
+    cout << "Podałeś: " << liczba1;
 	return 0;
 
 }
