@@ -1,0 +1,11 @@
+sublime text: Bootstrap x4 snippets, html boilertplate, html - jss-css-prefity, sublime linter- html-tidy
+ctr shift p packages instal packegs 
+CDN - Content Delivery Network, serwer internetowy
+https://getbootstrap.com/ bootsrtap CDN SKOPIOWAC: <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">WKLEIC DO HEAD 
+EXAMPLE STARTET 
+CRTL U - ZOBACZYC ZRODLO STRONY
+
+                    <table class="table-striped mx-auto"> - wysierodkuje
+                    
+w domu plan css pozmieniac kolory
+zastanowić się jak zrobić aby tabela byłe responsywna
