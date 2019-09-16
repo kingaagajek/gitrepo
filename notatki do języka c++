@@ -1,0 +1,19 @@
+++i lub i++ - inkrementacja zmiennej, tj. powiększenie o 1
+i =+ 2 - powiększenie zmiennej o 2
+--i lub i-- - dekrementacja, tj. pomniejszenie zmiennej o 1
+
+1. Edycja/ Preferencje/ Narzędzia/ Terminal: terminator -e "/bin/sh %c"
+2. Build: g++ -Wall -o "%e.exe""%f"
+3. Excute: "./%e.exe"
+F8, F9, F5
+
+    int i; //DEKLARACJA
+    i = 0; // INICJACJA
+    int i = 0; // DEKLARACJA I INICJACJA = DEFINICJA
+    
+    endl - drukuje koniec wiersza
+
+error: ‘i’ was not declared in this scope - kompilator spotkał jakąś nazwe i nie wie co to za nazwa, co ma oznaczać
+
+zmienna i jest w pętli for deklarowana więc jest ważna tylko dla tej pętli for
+(w języku python nie ma pętli while)
