@@ -11,3 +11,36 @@ w domu plan css pozmieniac kolory
 zastanowić się jak zrobić aby tabela byłe responsywna
 
 
+robiąc strone, która ma byc responsywna unikamy rozmiarów wpisywanych "na sztywno", używamy jednostek względnych:
+
+    em 	Relative to the font-size of the element (2em means 2 times the size of the current font) - często używany, (dwa razy mniejsza czcionka "dziecka" niż czcionka "rodzica")
+ex 	Relative to the x-height of the current font (rarely used) 	
+ch 	Relative to width of the "0" (zero) 	
+    rem Relative to font-size of the root element - też ważna 
+vw 	Relative to 1% of the width of the viewport* 	
+vh 	Relative to 1% of the height of the viewport* 	
+vmin Relative to 1% of viewport's* smaller dimension 	
+vmax Relative to 1% of viewport's* larger dimension 	
+% 	Relative to the parent element
+
+
+jednostki absolutne(raczej nie):
+cm 	centimeters
+mm 	millimeters
+in 	inches (1in = 96px = 2.54cm)
+px * 	pixels (1px = 1/96th of 1in)
+pt 	points (1pt = 1/72 of 1in)
+pc 	picas (1pc = 12 pt) 
+
+4.5rem - wielokrotnośc czcionki bazowej o 4,5, odsuwa ją 
+
+overflow - decyduje o tym co ma się stac jeseli zawartośc jakiegoś elementu wykracza poza jego obszar (może być np scroll)
+
+wieport - dostępna szerokość i wysokość ekranu dla jakiejś przeglądarki:
+scroll - wymusza, auto
+
+<span>
+<small> - automatycznie zmniejsza czcioke w stosunku do span
+
+
+W DOMUPRZEGLĄDNĄĆ BS4 TYPOGRAPHY, UMIEC ZAQSTOSOWAC T EKLASY I ZNACZNIKI (NA KONCU STRONY CO SA) 
