@@ -17,3 +17,5 @@ error: ‘i’ was not declared in this scope - kompilator spotkał jakąś nazw
 
 zmienna i jest w pętli for deklarowana więc jest ważna tylko dla tej pętli for
 (w języku python nie ma pętli while)
+
+W DOMU DOKONCZYC TRÓKĄT
