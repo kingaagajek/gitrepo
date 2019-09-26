@@ -18,4 +18,7 @@ error: ‘i’ was not declared in this scope - kompilator spotkał jakąś nazw
 zmienna i jest w pętli for deklarowana więc jest ważna tylko dla tej pętli for
 (w języku python nie ma pętli while)
 
-;
+jesli nie wiem ile razy petla to while jesli wiem to for
+
+w zzad 4 jesli chce sprawidzic czy cos jest podzielne przez 3 to:
+if(i% 3== 0) tur to liczba ze zmiennej i dzieli sie przez 3
