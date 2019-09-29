@@ -15,7 +15,6 @@ int main(int argc, char **argv)
         cout << "podaj przedział: ";
     }
     cin >> n >> m;
-
     for (n; n<=m; n++) {
         cout << n << " ";
     }

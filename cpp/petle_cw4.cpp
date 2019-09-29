@@ -11,11 +11,10 @@ using namespace std;
 int main(int argc, char **argv)
 {
 
-    int b = 0;
-    cout << "podaj liczbę: ";
-    cin >> b;
-    for (int a=0; a <= b; a++) {
-        cout << a*a << " ";
+    int i;
+    for(i = 10; i < 100; i+=2)
+    if(i % 3 == 0){
+    cout << i << " ";
     }
 
 	return 0;
