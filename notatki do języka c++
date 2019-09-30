@@ -22,3 +22,12 @@ jesli nie wiem ile razy petla to while jesli wiem to for
 
 w zzad 4 jesli chce sprawidzic czy cos jest podzielne przez 3 to:
 if(i% 3== 0) tur to liczba ze zmiennej i dzieli sie przez 3
+
+setw(4) - drukuje to co chcemy wydrukowac na szerokosc 4 komorek
+
+void - dany fragment bloku (funkcja) wykonuje pewna operacje, ale niczego nie zwraca
+
+jak jest i() - to tojest funkcja bo s a nawiasy
+trzeba w tych nawiasch podawac typpy zmienny np int i
+
+W DOMU PRZYGOTOWAĆ SCHEMAT BLOKOWY FUNKCJI P U S T A K używajac blokow wyjscia wejscia, operacje 
