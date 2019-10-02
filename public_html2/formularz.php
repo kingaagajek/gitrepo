@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="http://lo1.sandomierz.pl">I LO CG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -27,6 +27,21 @@
         </div>
     </nav>
     <div class="container-fluid">
+    	<div class="row">
+    		<div class="col">
+<?php
+
+echo '<h2>Przetwarzanie formularza</h2>';
+print_r($_POST);
+if (isset($_POST['login']))
+	echo '<p>Witaj '.$_POST['login'].'</p>';
+else
+	echo '<p>Zaloguj się!</p>'
+
+?>
+
+    		</div>
+    	</div>
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col">
@@ -35,66 +50,7 @@
                     <small>- w Bootstrapie</small>
                 </h1>
                 <hr>
-<<<<<<< HEAD
-
-<form action="formularz.html" method="POST" name="dane" id="dane">
-
-<input type="hidden" name="id_user" value="10">
-
-<div class="form-group">
-  <label for="login">Login:</label>
-  <input type="text" name="login" id="login" class="form-control" required="required">
-</div>
-
-<div class="form-group">
-  <label for="email">Email:</label>
-  <input type="email" name="email" id="email" class="form-control">
-</div>
-
-<div class="form-group">
-  <label for="haslo">Hasło:</label>
-  <input type="password" name="haslo" id="haslo" class="form-control">
-</div>
-
-<label for="haslo">Wybierz płeć:</label>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="plec" value="m" id="radio1">
-  <label class="form-check-label" for="radio1">Mężczyzna</label>
-</div>
-<div>
-  <input class="form-check-input" type="radio" name="plec" value="k" id="radio2">
-  <label class="form-check-label" for="radio2">   Kobieta</label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="plec" value="n" id="radio3" checked>
-  <label class="form-check-label" for="radio3">Odmowa</label>
-</div>
-
-<label>Wybierz dodatki:</label>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" name="dodatek1" value="d1" id="dodatek1" >
-  <label class="form-check-label" for="dodatek1">Dodatek1</label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" name="dodatek2" value="d2" id="dodatek2">
-  <label class="form-check-label" for="dodatek2">Dodatek2</label>
-</div>
-
-<label>Wybierz płeć z listy:</label>
-<select name="plec2" class="form-control">
-  <option value="m">Mężczyzna</option>
-  <option value="k">Kobieta</option>
-  <option value="n" selected>Odmowa</option>
-</select>
-
-
-  <input type="submit" value="Wyślij" class="btn-primary">
-
-
-</form>
-
-=======
-                <form action="formularz.html" method="POST" name="dane" id="dane">
+                <form action="formularz.php" method="POST" name="dane" id="dane">
                     <input type="hidden" name="id_user" value="10">
                     <div class="form-group">
                         <label for="login">Login:</label>
@@ -138,7 +94,6 @@
                     </select>
                     <input type="submit" value="Wyślij" class="btn-primary">
                 </form>
->>>>>>> 334edd64834f55215f118ac745361ddd8cd9af13
             </div>
         </div>
     </div>
