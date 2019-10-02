@@ -63,8 +63,7 @@ int main(int argc, char **argv)
     cout << "Podaj znak: ";
     cin >> znak;
     prostokat2(a, b, znak);
-    
-    choinka(x, y);
+
 	return 0;
 }
 
