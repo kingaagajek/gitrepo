@@ -56,3 +56,16 @@ file:///home/kl2ag2/gitrepo/public_html2/formularz.html?login=alankot&email=alaa
 
 PRZEJRZEC TYPY INPUT DOKUMENTACJ ABOOTSRAP CONTOMENTS FORM!!!!!!!!!!!!
 
+PHP Na wzór języka c++ ale do zastosowań wwbowych, jest dedykowanych do tego typu aplikacji, stosowany do tworzenia skryptów www
+
+https://www.fullstackpython.com/flask.html, https://www.djangoproject.com/ - frameworkowe
+
+file://- pozwala otwierac w przglądarce pliki LOKALNE
+przegladarka to taki program, który oczekuje html
+
+aby otworzyc php - przede wszystkim zacząć od http://
+
+
+serwery www szukaja najpierw index.html jesli nie ma to index.php
+
+zmienna POST - tablica asocjacyjna,
