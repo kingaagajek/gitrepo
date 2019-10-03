@@ -31,3 +31,14 @@ jak jest i() - to tojest funkcja bo s a nawiasy
 trzeba w tych nawiasch podawac typpy zmienny np int i
 
 W DOMU PRZYGOTOWAĆ SCHEMAT BLOKOWY FUNKCJI P U S T A K używajac blokow wyjscia wejscia, operacje 
+
+;- pusta instrukcja
+
+void - funkcje typu wejście lub wyjście
+
+jezeli przed nazwa funkcje jest np string, int, char, to w funkcju musi byc slowo return;
+
+int wynik;
+    wynik = pomnoz(a, b);
+    cout << "ILoczyn: " << wynik;
+     - jesli ja chce tego uzyc jewszcze raz, potrzebne do zapamietania
