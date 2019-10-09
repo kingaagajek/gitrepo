@@ -25,10 +25,10 @@ int main(int argc, char **argv)
     int lata = 1;
     cout << "Podaj staz pracy w latach: " << endl;
     cin >> lata;
-    for(int i = 1; i <= lata; i++){
-    drukuj();
+    for(int i = 1; i < lata; i++){
     awans();
     }
+    drukuj();
 	return 0;
 }
 
