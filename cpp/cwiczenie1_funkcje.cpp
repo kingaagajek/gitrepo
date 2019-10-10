@@ -14,10 +14,9 @@ void drukuj() {
     cout << "Pracujesz " << staz << " lat i zarabiasz " << zarobek << endl;
 }
 
-int awans() {
+void awans() {
     staz += 1;
     zarobek = zarobek * 1.1;
-    return zarobek, staz;
 }
 
 int main(int argc, char **argv)
