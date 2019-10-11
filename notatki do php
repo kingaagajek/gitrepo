@@ -10,3 +10,12 @@ zamaist zywkłej spacji np: &nbsp;
 
 
 do swojego kompa albo localhost albo 127.0.0.1
+
+ścieżka bezwględna home/kl2ag2/public_html/phpapp/inc
+
+ściezka wzgeldna zaklada ze juz jestem w katalogu "glownym"
+localhost/~kl2ag2/phpapp
+
+jesli w innym katalogu niz "głowny" if (file_exists(/'jakis katalog'$id.'html'))
+
+include_once - dołącz raz
