@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	for (i=0; i<rozmiar; i++) {
 		cin >> tablica[i];
 	}
-	for (i=0; i<rozmiar; i++) {
+	for (i=rozmiar-1; i>=0; i--) {
 		cout << tablica[i] << " ";
 	}
 	return 0;

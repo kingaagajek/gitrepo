@@ -21,14 +21,14 @@ void awans() {
 
 int main(int argc, char **argv)
 {
-    int lata = 1;
+    int lata = 0;
     cout << "Podaj staz pracy w latach: " << endl;
     cin >> lata;
-    for(int i = 1; i <= lata; i++){
+    for(int i = 1; i < lata; i++){
     awans();
     drukuj();
     }
-   
+
 	return 0;
 }
 
