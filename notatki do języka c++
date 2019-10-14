@@ -68,3 +68,12 @@ przekazywanie argumentów przez wartość (by value) - dostaje tylko wartosc "za
 
 przekazywanie argumentów  przez referencje (by reference) NIE JEST TWORZONA KOPIA - funkcja która wywoluje inna funkcje daje dostep zmiennych lokalnych tej pierwszej funkcji,
 & (operator et) ^ - funckaj moze udostepnic swoja funkcje lokalną innej funkcji do modifikacji 
+
+
+ZROBI CW 1 PIRZEZ REFERENCJE
+
+każda T A B L I C A - musi mieć nawiasy kwadratowe, w tablicy można przechowywać dane tego samego typu, w nawiasie ile liczb chcemy przechowywac, pierwszy indeks tablicy to jest zero, w tablicy wszystkie komórki zmeinnych musza być koło siebie
+nazwa tablicy wskazuje tylko pierwszą komórkę
+jak jest tablica to prawie zawsze będzie petla
+
+TABLICA W odwrotenj kolejności
