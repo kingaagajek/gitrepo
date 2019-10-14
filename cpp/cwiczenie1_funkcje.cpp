@@ -1,5 +1,6 @@
 /*
- * cwiczenie1_funkcje.cpp
+ * zadanie_funkcje.cpp
+ *
  */
 
 
@@ -14,21 +15,17 @@ void drukuj() {
     cout << "Pracujesz " << staz << " lat i zarabiasz " << zarobek << endl;
 }
 
-int awans() {
-    staz += 1;
+void awans(int &staz, float &zarobek) {
+    staz = staz + 1;
     zarobek = zarobek * 1.1;
-    return zarobek, staz;
 }
 
 int main(int argc, char **argv)
-{
-    int lata = 1;
-    cout << "Podaj staz pracy w latach: " << endl;
+{   int lata;
+    cout << "Podaj staz w latach: " << endl;
     cin >> lata;
-    for(int i = 1; i <= lata; i++){
+	awans(staz, zarobek);
     drukuj();
-    awans();
-    }
+
 	return 0;
 }
-
