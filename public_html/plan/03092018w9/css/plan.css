@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding-top: 4.5rem;
+}
+
+th, td.nr {
+    background-color: #ff0000;
+    color: #FFF;
+}
+
+a.n {
+    /* nauczyciel */
+    color: #000099
+}
+
+a.s {
+    /* sala */
+    color: #000099
+}
+
+a.k {
+    /* klasa */
+    color: #000099
+}
+
+.p {
+    /* przedmiot */
+    color: #000000;
+    font-weight: bold
+}
+
+.op {
+    /* napis */
+    font: 10px verdana, sans-serif
+}
+
+@media print {
+    .tabtytul {
+        /* nag³ówek do druku */
+        display: none
+    }
+}

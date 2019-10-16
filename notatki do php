@@ -19,3 +19,14 @@ localhost/~kl2ag2/phpapp
 jesli w innym katalogu niz "głowny" if (file_exists(/'jakis katalog'$id.'html'))
 
 include_once - dołącz raz
+
+
+W DOMU WPISUJE: C:\UwAmp\www\phpapp
+W szkole: localhost/phpapp
+
+array() - tablica
+jeśli chce miec dostep do zmiennej globalnej w funkcji: global$
+tak samno jak w c++nawiasy [] oznaczaja tablcie
+
+podstawa jest index.php, ktory "skleja" rózne pliki
+variable zmienna ktora chcemy prezheladac
