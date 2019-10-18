@@ -6,7 +6,7 @@ $pages = array(
 	'klasa' => 'Klasy'
 );
 
-function get_menu(&id) {
+function get_menu($id) {
 	global $pages;
 	foreach ($pages as $p => $t) {
 		echo '
