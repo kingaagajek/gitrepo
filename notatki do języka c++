@@ -80,3 +80,15 @@ TABLICA W odwrotenj kolejnoś
 nazwa tablicy jest referencją
 
 W DOMU SREDNIA OCEN
+
+CHAR - przechowuje tylko jeden jakiś znak, zapisujemy w: '', moze przechowywać 255 znaków
+
+
+BAJT składa się z 8 BITÓW(system dwójkowy)
+
+napisy w podwójnych cudzysłowach to stałe napisowe
+
+tablice znaków mozna zainicjowac albno podajac znaki w podwojnym cudzyslowie, albo podajac pojedyncze znaki w klamarch
+
+
+

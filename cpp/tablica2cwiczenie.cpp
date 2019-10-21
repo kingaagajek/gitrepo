@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 	int tablica[rozmiar];
 
 	pobierzOceny(tablica, rozmiar);
-    cout << "Twoja œrednia to: " << srednia(tablica, rozmiar) << endl;
+    cout << "Twoja srednia to: " << srednia(tablica, rozmiar) << endl;
 
 	return 0;
 }
