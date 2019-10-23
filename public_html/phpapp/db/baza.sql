@@ -8,3 +8,5 @@ CREATE TABLE menu (
 INSERT INTO menu VALUES(NULL, 'witam', 'Witamy', 1);
 INSERT INTO menu VALUES(NULL, 'formularz', 'Formularz', 2);
 INSERT INTO menu VALUES(NULL, 'klasa', 'Klasa', 3);
+
+-- INSERT INTO menu(tytul, plik, id) VALUES('')
