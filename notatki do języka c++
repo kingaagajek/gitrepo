@@ -91,4 +91,17 @@ napisy w podwójnych cudzysłowach to stałe napisowe
 tablice znaków mozna zainicjowac albno podajac znaki w podwojnym cudzyslowie, albo podajac pojedyncze znaki w klamarch
 
 
+tablica dwuwymiarowa - macierz
+
+#define N	3
+#define M 	3
+ - stałe, nie zmieniamy podczas programu
+ Powiązanie pewnej wartości z pewna nazwą
+ 
+ seed randomi (srand) - pseudolosowe
+ 
+ 
+ EPOKA UNIXA - tzw. cza uniksowy, liczba sekund, która upłynęła od 1 stycznia 1970
+
+
 
