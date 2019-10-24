@@ -24,12 +24,13 @@ void dekoduj(int kod[], int rozmiar) {
 
 int main(int argc, char **argv)
 {
-	int rozmiar = 10;
+	int rozmiar = 11;
 	
-	char napis[rozmiar] = "dziala?";
+	char napis[rozmiar] = "Ala ma kota";
 	int kod[rozmiar] = {65, 108, 97, 32, 109, 97, 32, 107, 111, 116, 97};
 	
 	koduj(napis, rozmiar);
+	cout << endl;
 	dekoduj(kod, rozmiar);
 	
 	
