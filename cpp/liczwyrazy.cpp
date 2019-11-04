@@ -36,7 +36,7 @@ int main(int argc, char **argv)
             slowa++;
         }
 	}
-	cout << "To zdanie ma " << slowa << " slow";
+	cout << "To zdanie ma " << slowa << " słowa/słów";
 
 	return 0;
 }
