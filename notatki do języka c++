@@ -106,3 +106,11 @@ tablica dwuwymiarowa - macierz
 
 W DOMU ZROBIĆ PROGRAM LICZYACY ILOSC WYRAZOW (ODDZIELONE SPACJA)
 
+continue - przerwij wykonywanie pętli, przejdz do nastepnej iteracji
+break - przerywa i wychodzi poza petlę
+
+n! = 1 * ... * n - > wzór iteracyjny na silnię
+n! = (n-1)! * n -> wzór rekurencyjny na silnię
+
+ZASTANOWIC W DOMU JAK ZRONIC PALINDROM
+	WYSTARCZY JEDNA PETY;A
