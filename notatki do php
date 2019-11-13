@@ -55,3 +55,28 @@ AKTUALNY KOD TEGO CO ROBIMY NA LEKCJI:
 github.com//lo1cgsan/phpapp
 
 w c++ case akcja w php switch akcja - zbadawaj wartosc
+
+$ -jakas zmienna
+
+https - działa na zasadzie: pytanie - odpowiedź - jest to protokół bezstanowy, ni epamięta tego co było wcześniej
+login, hasło -> serwer -> SESJA - ()
+serwer -> klient(przeglądarka) (też musi mieć możliwośc do zapisania pewnych zmian) --- po to sa cookie - pliki tworzone po stronie klienta
+
+jak tworzyć sesje po stronie serwera, jak tworzyć cookie po stronie klienta?
+
+SESJA I COOKIE - TO PLIKI
+
+sesja - nazwa mechanizmu, plik zapisywany po stronie serwera, zapisywane sa w nim pewne informacje
+
+informacja musi umiec zapisac, ze udalo sie zalogowac w ciastku
+czyli ciastko i sesja, najczesiej tam są zapisywane dane uzytkowników
+
+!empty - czy cokolwiek jest zapisane w zmiennej login i czy to coś jest różne od NULL
+
+funkcja hasz np. sha1 - generuje skrót dla hasła, w bazie nie jest zapisywane samo hasło, ale ciąg znaków
+
+$this ->  dane - obiekt użytkownika, wyniki zwrócone w bazie danych mają myć utworozne w tej tabeli dane
+
+char()-zAWSZ EPODAJESZ DŁUGOSC 
+VARCHAR - NIEKONIECZNIE
+Ale nakładanie ograniczenjest dobre, zwiększa wydajność itp
