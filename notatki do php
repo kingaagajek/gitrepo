@@ -80,3 +80,5 @@ $this ->  dane - obiekt użytkownika, wyniki zwrócone w bazie danych mają myć
 char()-zAWSZ EPODAJESZ DŁUGOSC 
 VARCHAR - NIEKONIECZNIE
 Ale nakładanie ograniczenjest dobre, zwiększa wydajność itp
+
+TRIM - wykorzystywana do tego aby odrzucic spacje przed i po tekście
