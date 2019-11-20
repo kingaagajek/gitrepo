@@ -40,14 +40,13 @@
 		w[0].innerHTML = "NWD("+a1+", "+b1+") =" + a;
 		document.getElementById("a").value = ' ';
 		document.getElementById("b").value = ' ';
-	
+	}
 	function nwd2() {
 		a = document.getElementById("a").value;
 		b = document.getElementById("b").value;
 		a1 = a = parseInt(a);
 		b1 = b = parseInt(b);
 		while (a > 0) {
-		
 		a = a % b;
 		b = b - a;
 		}
