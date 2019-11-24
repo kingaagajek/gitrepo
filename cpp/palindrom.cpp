@@ -12,7 +12,7 @@ bool czy_palindrom(char tab[]) {
 	for (int i = 0; i < rozmiar/2; i++) {
 		if (tab[i] == tab[rozmiar - 1 - i])
 			;
-		else 
+		else
 			return false;
 	}
 	return true;
@@ -34,7 +34,7 @@ bool czy_palindrom2(char tab[]) {
 	for (int i = 0; i < rozmiar/2; i++) {
 		if (tab[i] == tab[rozmiar - 1 - i])
 			;
-		else 
+		else
 			return false;
 	}
 	return true;
@@ -49,19 +49,19 @@ int main(int argc, char **argv)
 	char napis2[r];
 	cin.getline(napis1, 20);
 	removeSpaces(napis1, napis2);
-	
+
 	cout << napis2 << endl;
 	cout << napis2[strlen(napis2)-1] << endl;
 	cout << strlen(napis2) << endl;
-	
+
 	if (czy_palindrom(napis2)) {
 		cout << "To palindrom!" << endl;
 	} else {
 		cout << "To nie palindrom!" << endl;
 	}
-	
-	
-	
+
+
+
 	return 0;
 }
 
