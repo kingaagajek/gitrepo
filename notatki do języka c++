@@ -124,3 +124,26 @@ ZASTANOWIC W DOMU JAK ZRONIC PALINDROM
 	PODRĘCZNIK STR 82
 
 POMYSLEC JAK POPRAWIC FIBONACCI ABY BYL POPRAWNY FIB(0,1) = 1 
+
+PODRĘCZNIK STR 83 - S C H E M A T  H O R N E R A
+y = a0+x^2 + a1*x + a2
+Mnożeń: 3
+Dodawań: 2
+y = (a0*x+a1)*x + a2
+Mnożeń: 2
+Dodawań: 2
+/*
+W(x) = a0*x^n +  a1*x^n-2 +...+ an-1*x + an dla n>=0
+x=2;
+1010(2)
+W(2) = 1*2^3 + 0*2*2 + 1*2^1 + 0;
+
+W(x) = (...(((a0 *x + a1)x +a2)x +...+ an-1)x +an
+*/
+Dane wejściowe:
+zmienna n = stopień wielomianu
+tabela współczynników
+argument x
+
+
+kazda nazwa zawiera pierwszy adres komorki tej tablicy, czyli jest wskaznikiem
