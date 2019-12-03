@@ -82,3 +82,11 @@ VARCHAR - NIEKONIECZNIE
 Ale nakładanie ograniczenjest dobre, zwiększa wydajność itp
 
 TRIM - wykorzystywana do tego aby odrzucic spacje przed i po tekście
+
+Atrybuty prywatne klase to tylko takie ktore mozna sie dostac z wewnatrz kjlasy anie mozna z zewnatrz
+
+self-odwolaj sie do samej siebie, zmiennej klasy.
+
+
+PHP for windows download katalog do sciezki systemowej
+php -S localhost:8080
