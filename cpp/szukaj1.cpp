@@ -12,7 +12,7 @@ int szukaj_it (int liczby[], int ile, int n) {
 	int indeks = -1;
 	for (int i = 0; i < ile; i++)
 		if (liczby[i] == n) return i;
-		
+
 	return indeks;
 }
 
