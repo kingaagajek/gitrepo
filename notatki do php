@@ -89,4 +89,12 @@ self-odwolaj sie do samej siebie, zmiennej klasy.
 
 
 PHP for windows download katalog do sciezki systemowej
-php -S localhost:8080
+zainsatlowac php
+
+uruchomic serwer w katalogu phpapp php -S localhost:8080
+
+
+TABLICA KTORA ZAWIERA INNE TABLLICE:
+$ret = array(
+    array('id'=>1, 'user', )
+)

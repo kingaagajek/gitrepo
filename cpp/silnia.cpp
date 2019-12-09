@@ -31,7 +31,7 @@ long int silnia_re(int n){
 int main(int argc, char **argv)
 {
 	int n;
-	cout << "Podaj liczbê naturaln¹: " << endl;
+	cout << "Podaj liczbe naturala: " << endl;
 	cin >> n;
 	cout << "Silnia: " << silnia_it(n) << endl;
 	cout << "Silnia: " << silnia_re(n) << endl;
