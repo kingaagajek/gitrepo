@@ -34,7 +34,7 @@ int NWD_it2(int a, int b) {
         a = b;
 		b = a % b;
 	}
-	cout << "NWD: " << a << endl;
+	return  a;
 }
 
 int main(int argc, char **argv)
