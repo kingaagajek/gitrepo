@@ -99,3 +99,10 @@ $ret = array(
     array('id'=>1, 'user', )
 )
 
+
+zmienić formularz tak aby uzytkownik nie musial sie wpisywac basa sgl
+
+zeby była treść user odczytamy z user, a data automatycznie
+insert z jedna wartości treść 
+jako user id uzytkownika 
+
