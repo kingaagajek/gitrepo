@@ -171,3 +171,22 @@ N A J W A Ż N I E J S Z E  W Ł A S N O Ś C I  A L G O R Y T M U:
 4)efektywność
 
 jak poprawic 1 algorytm
+
+f(n) = 1, O(1) - zlożoność stała
+f(n) = 6n, O(n) -> ta funkcja ma złożonośc rzędu n - złożonośc liniowa
+f(n) = n^2, O(n^2) - złożonośc kwadratowa
+O(log n) - złożoność logarytmiczna
+O(n!) - złożoność wykoladnicza
+
+np.:
+s = 0
+n = 10
+for i in range(2*n):  (--> Zależność liniowa)
+	s += i
+Ten algorytm ma złożoność n
+
+for i in range(2*n):  (--> Zależność kwadratowa)
+
+
+Lista kroków:
+
