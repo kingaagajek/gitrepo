@@ -6,10 +6,14 @@
 #include <iostream>
 using namespace std;
 
+// Ln = 1
+// Ln = n
+// 0(n) - algorytm o złozoności n
+
 int main(int argc, char **argv)
 {
 	int n = 5;
-	int tb[n] = {3, 3, 8, 10000, 9};
+	int tb[n] = {3, 5, 8, 1, 9};
 	//int i = 0;
 	int x = 8;
 	for (int i = 0; i < n; i++) {
