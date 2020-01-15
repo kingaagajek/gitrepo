@@ -106,3 +106,39 @@ zeby była treść user odczytamy z user, a data automatycznie
 insert z jedna wartości treść 
 jako user id uzytkownika 
 
+
+T E S T
+zad.1
+php -f plik.php
+php plik.php
+
+języki kompilowane (C++, kompilator, linker)
+interprtowane (PHP, Python, Java Script)
+zad.2 interpreter
+zad.3 Do zdalnego wykonywamoa kodu PHP po stronie serwera WWW trzeba użyć: interpretera, dedykowanego moduł serwera (linkowanue i kompilacja trwałaby zbyt długo)
+zad.4 wyprowadzanie dan tekstowych: print(), echo(), echo
+zad.5 po stronie serwera WWW kod PHP wykonywany jest w plikach: .php 
+zad.6 kod php w znaczniki <? php ?>
+zad.7 za pomocą metody POST (get zadamy od serwera nie zmieanuiamy adnych)
+zad.8 dane z formularzu logowania dostępne są w tablicy $_POST
+zad.9 jeżeli chcemy wyszukać w serwisie WWW jakies informace, dane przesyłamy zazwyczaj w żądaniu GET
+ppdstatwowe metody protokuolu http miedzy przegladarka a serwerem:
+POST
+GET
+zad.10 wlidacja danych z formularzy danych polega na: uzywaniu odpowiednich atrybutow html, sprawdzaniu po stronei serwera czy dane 
+zad.11 java scriptu mozna uzyc do walidacji danych: po stronie serwera, po stronie klienta
+zad.12 sprawdzanie poprawności loginu i hasła to przykład: walidacji, autentykacji(czy jestes tym za kogo sie podajesz, wpisujac login itp) 
+
+autoryzacja - przyzannie komus uprawnień do czegoś
+zad.13 do sprawdzenia czy zmienna istnieje i nie jest wartościa NULL użyjesz: isset()
+zad.14 funkcja array_key_exists sprawdza czy w tabeli istnieje pdany klucz
+zad.15 do sprawdzenie czy zmienna nie istnieje lub jest równa FALSE, użyjesz: empty()
+zad.16 funkcje PHP które mozna uzyc w sprawdzaniu poprawnosci wprowadzonych danych: strlen(), htmlspecialchars(), trim()
+zad.17 zmienn w PHP: są tworzone w momencie pierwszego przypisania
+zad.18 do tworzenia nowych zmiennych podczas wykonywania skryptu użyjemy zapisu: ${$zmienna}='wartosc'
+${k} = cos tam -> dynamiczne tworzenie zmienntych
+zad.19 aby wartosc zmiennej znalzla sie w  ciagu znakowym uzyjemy zapisu: "zmienna:$zmienna", "zmienna:{$tab['zmienna']}"
+zad.20 jezeli w formularzach HTML typu POSt mamy pole o nazwie "kod", przesłaną wartość odczytamy za pomocą instrukcji POST[kod]
+zad.21 nazwa funkcji foreach
+zad.22 dostep do pierwszego elementu tablyc Klasa::$dane[0]
+zad.23 zapytania odczytujace dane
