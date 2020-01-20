@@ -21,6 +21,5 @@ int main(int argc, char **argv)
 	cout << "NWD: " << a << endl;
 	//cout << "Powtórzeń: " << i << endl;
 	return 0;
-	return 0;
 }
 
