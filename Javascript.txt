@@ -1,3 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-22T09:01:03+01:00
+
+====== Javascript ======
+Created środa 17 stycznia 2020
+
 DO PISANIA KODU: https://codepen.io/ LUB https://js.do/
 NP DO ĆWICZENIA I UCZENIA SIĘ: https://www.w3schools.com/js/
 
