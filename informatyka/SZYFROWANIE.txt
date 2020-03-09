@@ -36,5 +36,7 @@ NASK - nauka i Akademia SIeci - instytucja autoryzowana do zarządzania domeną 
 
 dostępność sprawdzic, kupic doemne mozna np na domeny.pl
 
-bezpłatny certyfikat ssl - let's Encrypt  - sprawdza się w przypadku internetoeych projektów działających na mniejsza skalę, trzbe a go odnawiać ręznoie co 90 dni 
+bezpłatny certyfikat ssl - let's Encrypt  - sprawdza się w przypadku internetoeych projektów działających na mniejsza skalę, trzbe a go odnawiać ręznoie co 90 dni
+
+ 
 
