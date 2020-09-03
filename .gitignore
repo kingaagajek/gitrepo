@@ -4,13 +4,17 @@
 *.lck
 .~*
 
+#Byte-compiled/ optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyc
-venv
-pve
 
 .DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
 
 # katalog konfiguracyjny aplikacji jetbrains
 .idea
