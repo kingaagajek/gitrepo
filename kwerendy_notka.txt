@@ -1,0 +1,16 @@
+relacja *jeden do wielu
+        *wiele do wielu (uczestniczą 3 tabele, często słownikowa, tabela podstawowa, i tabela która łączy)
+        *jeden do jednego (ten sam klucz główny)
+
+TABELA SŁOWNIKOWA- zawiera liste kategorii.
+
+kwerendy mają sens <=> kiedy istnieją relacje między tabelami
+
+podczas odczytywania z bazy danych - filtrujemy te rekordy (kwerendy)
+
+*-dowolona ilośc znakow, dowolona ilość razy
+?-jeden dowolny znak
+LIKE 'S*'->Sandomierz, Sanok, Suwałki
+LIKE 'S?'->Sa, Sy, St
+LIKE 'A*' AND LIKE 'S*' - logiczna koniunkcja, warunki w jednym, wierszu(!!!)
+LIKE 'A*' OR LIKE 'S*' - logiczna koniunkcja , warunkiw w różnych wierszach(!!!!!)
